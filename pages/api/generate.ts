@@ -49,7 +49,7 @@ export default async function handler(
     },
     body: JSON.stringify({
       version:
-        "9283608cc6b7be6b65a8e44983db012355fde4132009bf99d976b2f0896856a3",
+        "1b8ff34d4b49ed7915a2fb4f8d6788342f397b92",
       input: { img: imageUrl, version: "v1.4", scale: 2 },
     }),
   });

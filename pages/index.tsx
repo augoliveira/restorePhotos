@@ -26,17 +26,16 @@ const Home: NextPage = () => {
           customers
         </a>
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-slate-900 sm:text-7xl">
-          Restoring old photos{" "}
+          Restaurando fotos antigas{" "}
           <span className="relative whitespace-nowrap text-[#3290EE]">
             <SquigglyLines />
-            <span className="relative">using AI</span>
+            <span className="relative">usando IA</span>
           </span>{" "}
-          for everyone.
+          para todos.
         </h1>
 
         <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
-          Have old and blurry face photos? Let our AI restore them so those
-          memories can live on. 100% free – restore your photos today.
+        Tem fotos de rosto antigas e embaçadas? Deixe nossa IA restaurá-los para que essas memórias possam viver. 100% grátis – restaure suas fotos hoje.
         </p>
         <div className="flex justify-center space-x-4">
           <a
@@ -45,21 +44,21 @@ const Home: NextPage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Learn how it's built
+            Up.expert
           </a>
 
           <Link
             className="bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80"
             href="/restore"
           >
-            Restore your photos
+            Restaurar suas fotos
           </Link>
         </div>
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-2 sm:flex-row flex-col">
               <div>
-                <h2 className="mb-1 font-medium text-lg">Original Photo</h2>
+                <h2 className="mb-1 font-medium text-lg">Foto original</h2>
                 <Image
                   alt="Original photo of my bro"
                   src="/michael.jpg"
@@ -69,7 +68,7 @@ const Home: NextPage = () => {
                 />
               </div>
               <div className="sm:mt-0 mt-8">
-                <h2 className="mb-1 font-medium text-lg">Restored Photo</h2>
+                <h2 className="mb-1 font-medium text-lg">foto restaurada</h2>
                 <Image
                   alt="Restored photo of my bro"
                   width={400}
